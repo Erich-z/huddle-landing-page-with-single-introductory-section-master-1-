@@ -8,7 +8,7 @@
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 body{
     background-image: url(/images/bg-desktop.svg);
@@ -79,14 +79,14 @@ body{
 
 @media only screen and (max-width: 1440px) {
     body{
-        background-image: url(/images/bg-mobile.svg);
+        background-image: url(./images/bg-mobile.svg);
     }
     .box{
         display: flex;
         flex-direction: column;
         width: 100vw;
         margin: 0;
-        overflow: hidden;
+        overflow-x: hidden;
     }
     .content{
         max-width: 35vw;
@@ -144,7 +144,7 @@ body{
 
 @media only screen and (max-width: 768px) {
     body{
-        background-image: url(/images/bg-mobile.svg);
+        background-image: url(./images/bg-mobile.svg);
     }
     .box{
         display: flex;
